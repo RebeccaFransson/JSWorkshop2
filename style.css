@@ -1,0 +1,25 @@
+body {
+    font-size: 50px;
+    background-color: black;
+}
+a {
+    color: pink;
+}
+#main {
+    margin-top: 50vh;
+    width: 100%;
+    text-align: center;
+
+    color: blue;
+
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {color: blue;}
+    25%  {color: purple;}
+    50%  {color: rgb(128, 0, 21);}
+    75%  {color: rgb(128, 98, 0);}
+    100% {color: blue;}
+}
